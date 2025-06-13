@@ -1,0 +1,24 @@
+import java.util.*;
+public class Main{
+    public static void main (String[] arg){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter you Range");
+        int num = input.nextInt();
+        
+        if(num >0)
+        {
+             System.out.println("Positive"+ num);
+        }
+        else if(num <0)
+            {
+            System.out.println("Negative"+ num);
+            }
+        else 
+                {
+                    
+                    System.out.println("zero"+ num);
+                }
+                
+                
+        }
+  }
